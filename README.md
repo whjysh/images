@@ -30,6 +30,11 @@ Java分类下文章的图片所使用的路径
 
 ## ....
 
+## Gitee和Github链接对照
+https://raw.githubusercontent.com/whjysh/Images/master/   xxx.png
+https://gitee.com/ushai/yunhaiblog/raw/master/            xxx.png
+
+
 # 图床迁移方案
 连带路径迁移更改主路径
 采用数据库`update`语句
