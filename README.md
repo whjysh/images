@@ -31,9 +31,9 @@ Java分类下文章的图片所使用的路径
 ## ....
 
 ## Gitee和Github链接对照
-https://raw.githubusercontent.com/whjysh/Images/master/   xxx.png
+https://raw.githubusercontent.com/.../master/   xxx.png
 
-https://gitee.com/ushai/yunhaiblog/raw/master/            xxx.png
+https://gitee.com/.../master/            xxx.png
 
 
 # 图床迁移方案
