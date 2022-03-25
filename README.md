@@ -39,3 +39,13 @@ https://gitee.com/ushai/yunhaiblog/raw/master/            xxx.png
 # 图床迁移方案
 连带路径迁移更改主路径
 采用数据库`update`语句
+
+```sql
+UPDATE wp_posts 
+	SET post_content = REPLACE ( post_content, 
+                                'https://gitee.com/../master/', 
+                                'https://raw.githubusercontent.com/.../master/' ) 
+
+WHERE
+	post_content LIKE '%https://gitee.com/../master/%'
+```
